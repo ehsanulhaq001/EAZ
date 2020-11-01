@@ -55,11 +55,11 @@ function draw() {
         }
     }
     t += 0.01;
-    clear();
+    text();
     requestAnimationFrame(draw);
 }
 
-function clear() {
+function text() {
 
     let x = (cnv.width - 1100) / 2;
     let y = (cnv.height - 500) / 2;
